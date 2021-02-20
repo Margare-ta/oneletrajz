@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+.nagy{
+    background-image: linear-gradient(rgb(127, 255, 212), rgb(255, 182, 240));
+    height: 1000px;
+    width: 900px;
+    margin: auto;
+    box-shadow:  8px 8px 4px rgba(207, 224, 209, 0.533);
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.sorok{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 3px solid rgb(95, 158, 160);
+    background-color: rgba(224, 255, 255, 0.63);
+}
+
+.container2{
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 150px;
+    width: 250px;
+    border: 3px solid rgb(95, 158, 160);
+    background-color: rgba(253, 208, 247, 0.644);
+    padding: 10px;
+}
+
+.En{
+    height: 190px;
+    border: 5px dotted rgb(95, 158, 160);
+}
+
+.nevem{
+    font-family: vve;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(53, 87, 88);
+}
+
+
+
+@font-face {
+    font-family: 'vve';
+    src: url('PilotLLJ.ttf');
+  }
+
+  a:hover {
+    background-color:  rgb(127, 255, 212);
+    color:rgb(255, 0, 157);
+  }
+
+  .p{
+      margin-top: 5px;
+  }
+
+  .ul {
+    list-style-type: repeating-emoji;
+  }
+
+  @counter-style repeating-emoji {
+    system: cyclic;
+    symbols: "🛹" "🏊‍♀️" "🚴‍♂️" "🎨" "⌚" "🧶" "👗"; // unicode code point
+    suffix: " ";
+  }
+
+.ul2{
+    list-style-type: repeating-emoj;
+}
+
+@counter-style repeating-emoj {
+    system: cyclic;
+    symbols: "🏔" "🧔" "🎹" "👱" "👑" "🍌" "🏏" "🏰"; // unicode code point
+    suffix: " ";
+}
+
+.hobby{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 3px solid rgb(95, 158, 160);
+    background-color: rgba(253, 208, 247, 0.644);
+}
+
+.keret{
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 3px solid rgb(95, 158, 160);
+    background-color: rgba(224, 255, 255, 0.575);
+    padding: 10px;
+}
+
+.img{
+    width: 260px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 5px dotted rgb(95, 158, 160);
+}
+
+img{
+    height: 200px;
+    margin-left: 5pxpx;
+}
+
+#munka{
+    width: 640px;
+    background-color: rgba(207, 161, 245, 0.486);
+    border: 5px solid rgb(95, 158, 160);
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.munka2{
+    width: 640px;
+    background-color: #8ef1b79c;
+    border: 5px solid rgb(95, 158, 160);
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.cel{
+    width: 640px;
+    background-color: rgba(158, 178, 245, 0.568);
+    border: 5px solid rgb(95, 158, 160);
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.aligne{
+    text-align: justify;
+    margin: 4px;
+}
+
+.munka3{
+    width: 640px;
+    background-color: rgb( 147, 213, 252, 0.719);
+    border: 5px solid rgb(95, 158, 160);
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.majd{
+    width: 640px;
+    background-color: rgba(204, 245, 245);
+    border: 5px solid rgb(95, 158, 160);
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+
